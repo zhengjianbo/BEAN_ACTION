@@ -1,0 +1,292 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ IComponent 
+	- _id = GUID 199301ce-e174-4e1d-aaa0-4dc886c378fa;
+	- _myState = 139264;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 1;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Component";
+						- Properties = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IProperty 
+								- _Name = "CalculatePackageEventBaseId";
+								- _Value = "OnCodeGeneration";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "OnCreatePackage,OnCodeGeneration";
+							}
+							{ IProperty 
+								- _Name = "ComponentsSearchPath";
+								- _Value = "sXXX";
+								- _Type = String;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	- _name = "DefaultComponent";
+	- _modifiedTimeWeak = 5.22.2017::7:25:6;
+	- _description = { IDescription 
+		- _textRTF = "{\\rtf1\\ansi\\ansicpg936\\deff0\\deflang1033\\deflangfe2052{\\fonttbl{\\f0\\fswiss\\fcharset0 Arial;}{\\f1\\fnil\\fprq2\\fcharset134 \\'cb\\'ce\\'cc\\'e5;}{\\f2\\fnil\\fcharset134 Arial;}}
+\\viewkind4\\uc1\\pard\\lang2052\\f0\\fs20 FFFFFFFFFF;/[`~!@#$%^&*()+=|\\{\\}':;',\\\\\\\\[\\\\\\\\].<>/?~\\f1\\'a3\\'a1@#\\'a3\\'a4%\\'a1\\'ad\\'a1\\'ad&*\\'a3\\'a8\\'a3\\'a9\\emdash\\emdash +|\\{\\}\\'a1\\'be\\'a1\\'bf\\lquote\\'a3\\'bb\\'a3\\'ba\\rdblquote\\ldblquote\\rquote\\'a1\\'a3\\'a3\\'ac\\'a1\\'a2\\'a3\\'bf]\\f2\\par
+}
+";
+	}
+	- Tags = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ ITag 
+			- _id = GUID 86cd9186-988d-4a8d-9fe4-9ec91708df77;
+			- _myState = 8192;
+			- _name = "XX";
+			- _modifiedTimeWeak = 5.22.2017::7:16:20;
+			- ValueSpecifications = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ILiteralSpecification 
+					- _id = GUID e6f68335-445d-4d39-bef1-c5bd7e223c32;
+					- _modifiedTimeWeak = 5.22.2017::7:16:20;
+					- _value = "1";
+				}
+			}
+			- _typeOf = { IHandle 
+				- _m2Class = "IType";
+				- _filename = "PredefinedTypes.sbs";
+				- _subsystem = "PredefinedTypes";
+				- _class = "";
+				- _name = "RhpString";
+				- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+			}
+			- _isOrdered = 0;
+		}
+		{ ITag 
+			- _id = GUID 3202a78f-0262-45d6-b915-a5a6399fedcc;
+			- _myState = 8192;
+			- _name = "YY";
+			- _modifiedTimeWeak = 5.22.2017::7:16:22;
+			- ValueSpecifications = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ILiteralSpecification 
+					- _id = GUID 6f64cdfe-3784-4025-ae53-1e8c1b826658;
+					- _modifiedTimeWeak = 5.22.2017::7:16:22;
+					- _value = "2";
+				}
+			}
+			- _typeOf = { IHandle 
+				- _m2Class = "IType";
+				- _filename = "PredefinedTypes.sbs";
+				- _subsystem = "PredefinedTypes";
+				- _class = "";
+				- _name = "RhpString";
+				- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+			}
+			- _isOrdered = 0;
+		}
+	}
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID d9480aa9-6859-4252-94c7-93d0c580907e;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 5.4.2017::9:59:30;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 711f0c5b-96bd-4fc5-9d58-477e8439a3cc;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 711f0c5b-96bd-4fc5-9d58-477e8439a3cc;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 2;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "AllowCollisionWithComponentName";
+										- _Value = "True";
+										- _Type = Bool;
+									}
+								}
+							}
+						}
+					}
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 2;
+									- value = 
+									{ IProperty 
+										- _Name = "ExternalGenerationTimeout";
+										- _Value = "12";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "ExternalGeneratorFileMappingRules";
+										- _Value = "DefinedByGenerator";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "AsRhapsody, DefinedByGenerator";
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "DefaultConfig";
+			- _modifiedTimeWeak = 5.22.2017::7:25:21;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID a7fb6d12-63b3-45b9-978f-b657964d9272;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Program Files (x86)\\IBM\\Rational\\Rhapsody\\8.1.1\\Project\\ProjectX\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID d94d9ebd-3ca0-44ac-a26c-efdc75b1caff;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Program Files (x86)\\IBM\\Rational\\Rhapsody\\8.1.1\\Project\\ProjectX\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- Tags = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ITag 
+					- _id = GUID 1f25acc3-974b-4ceb-a22d-934c9e9b4fd4;
+					- _myState = 8192;
+					- _name = "FFF";
+					- _modifiedTimeWeak = 5.22.2017::7:25:6;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID d5f423a2-62ec-47ef-98fa-59576f95877e;
+							- _modifiedTimeWeak = 5.22.2017::7:25:6;
+							- _value = "XXX";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 5db80986-0ece-456b-9407-7e0298a0aa10;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _modifiedTimeWeak = 1.2.1990::0:0:0;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 5.22.2017::7:25:21;
+			- strongCGTime = 5.22.2017::7:25:21;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID 1ccd40b0-0933-41af-9745-7284b92deead;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 5.22.2017::7:25:6;
+	- strongCGTime = 5.22.2017::7:16:34;
+}
+
