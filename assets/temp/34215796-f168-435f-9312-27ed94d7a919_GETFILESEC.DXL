@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="GB2312" standalone="yes" ?>
-<root>
-<module name="New ModuleX"  type="FomalModule" path="/New Folder/New ModuleX" desc="" />
- <module name="New Module2"  type="FomalModule" path="/New Folder/New Module2" desc="" />
- </root>
